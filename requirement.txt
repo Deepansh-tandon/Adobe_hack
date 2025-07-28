@@ -1,0 +1,9 @@
+pdfplumber
+pandas
+scikit-learn
+numpy
+spacy==3.7.2
+pillow
+PyMuPDF
+joblib
+xgboost

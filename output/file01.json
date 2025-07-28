@@ -1,0 +1,25 @@
+{
+    "title": "Application form for grant of LTC advance",
+    "outline": [
+        {
+            "level": "H1",
+            "text": "Date of entering the Central Government",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "Whether permanent or temporary",
+            "page": 1
+        },
+        {
+            "level": "H2",
+            "text": "S.No",
+            "page": 1
+        },
+        {
+            "level": "H2",
+            "text": "Signature of Government Servant.",
+            "page": 1
+        }
+    ]
+}

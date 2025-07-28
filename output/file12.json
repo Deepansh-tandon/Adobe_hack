@@ -1,0 +1,475 @@
+{
+    "title": "4. Uninformed Searching in AI",
+    "outline": [
+        {
+            "level": "H1",
+            "text": "4. Uninformed Searching in AI",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "1. Introduction to Search in AI",
+            "page": 1
+        },
+        {
+            "level": "H2",
+            "text": "Search in AI:",
+            "page": 1
+        },
+        {
+            "level": "H3",
+            "text": "Key Components:",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "Start State:",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "Goal Test:",
+            "page": 1
+        },
+        {
+            "level": "H2",
+            "text": "Path Cost:",
+            "page": 1
+        },
+        {
+            "level": "H3",
+            "text": "Search Tree:",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "2. Search Problem Representation",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "Formal Representation:",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "S:",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "A:",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "G:",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "P:",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "Transition Model:",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "3. Basic Search Algorithms",
+            "page": 1
+        },
+        {
+            "level": "H2",
+            "text": "State Space Tree Search:",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "State Space Graph Search:",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "OPEN",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "(generated but unexplored nodes) and",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "CLOSED",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "State Space tree search algo",
+            "page": 2
+        },
+        {
+            "level": "H1",
+            "text": "4. Uninformed (Blind) Search Methods",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "Overview:",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "Examples:",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "5. Breadth-First Search (BFS)",
+            "page": 3
+        },
+        {
+            "level": "H1",
+            "text": "Method:",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "queue Key Properties:",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "Completeness:",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "Optimality:",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "Time Complexity:",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "and",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "Space Complexity:",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "O(b^d)",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "6. Depth-First Search (DFS)",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "Method:",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "Explores as deep as possible along abranch before backtracking using a",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "stack",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "Key Properties:",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "Completeness:",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "Optimality:",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "Time Complexity:",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "Space Complexity:",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "Note:",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "7. Depth-Limited Search",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "Method:",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "Key Properties:",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "Completeness:",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "Optimality:",
+            "page": 5
+        },
+        {
+            "level": "H1",
+            "text": "Time Complexity:",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "Space:",
+            "page": 6
+        },
+        {
+            "level": "H2",
+            "text": "O(b*l)",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "8. Depth-First Search with Iterative Deepening (DFS- ID)",
+            "page": 6
+        },
+        {
+            "level": "H2",
+            "text": "Method:",
+            "page": 6
+        },
+        {
+            "level": "H3",
+            "text": "Key Properties:",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "Completeness:",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "Optimality:",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "Time Complexity:",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "Space Complexity:",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "Method:",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "Expands the node with the lowest cumulative cost (g(n)) using a",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "priority queue Key Properties:",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "Completeness:",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "Optimality:",
+            "page": 6
+        },
+        {
+            "level": "H1",
+            "text": "Time Complexity:",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "Space Complexity:",
+            "page": 7
+        },
+        {
+            "level": "H2",
+            "text": "Similar to BFS. O(b^(d+1))",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "10. Bidirectional Search",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "Method:",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "Key Benefits:",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "Efficiency:",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "Reduces search complexity from O(b^d) to approximately",
+            "page": 7
+        },
+        {
+            "level": "H1",
+            "text": "Challenges:",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "11. Performance Evaluation of Search Algorithms",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "Completeness:",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "Optimality:",
+            "page": 8
+        },
+        {
+            "level": "H2",
+            "text": "Time Complexity:",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "Space Complexity:",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "Trade-offs:",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "BFS:",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "DFS:",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "DFS-ID:",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "UCS:",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "Bidirectional Search:",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "Can drastically reduce search effort if",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "12. Key Differences Among Algorithms",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "Iterative Deepening (DFS-ID):",
+            "page": 8
+        },
+        {
+            "level": "H1",
+            "text": "Uniform Cost Search:",
+            "page": 9
+        },
+        {
+            "level": "H1",
+            "text": "Bidirectional Search:",
+            "page": 9
+        },
+        {
+            "level": "H1",
+            "text": "Important Highlights:",
+            "page": 9
+        },
+        {
+            "level": "H2",
+            "text": "Search Space vs. Search Tree:",
+            "page": 9
+        },
+        {
+            "level": "H3",
+            "text": "OPEN and CLOSED Lists:",
+            "page": 9
+        },
+        {
+            "level": "H1",
+            "text": "Trade-offs in Search:",
+            "page": 9
+        },
+        {
+            "level": "H1",
+            "text": "Algorithm Selection:",
+            "page": 9
+        }
+    ]
+}
